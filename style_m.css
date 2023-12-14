@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+.menubar{
+    width: 100vw;
+    background-color: #707070;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{padding: 10px 20px;margin-top: 11px;}
+.menu{padding: 10px 20px;}
+
+.logo img{width: 184px;}
+.menu img{width: 40px;}
+.menulist{
+    display: none;
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+}
+.menulist li{
+    width: 100vw;
+    color: white;
+    font-family: 'Passion One', sans-serif;
+    font-size: 15px;
+    text-align: center;
+    padding: 20px 0px;
+    background-color: #707070;
+    border-top: 1px solid black;;
+}
+.content{
+    width: 100%;
+    font-family: 'Passion One', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    align-content: center;
+    height: 780px;
+    background-color: black;
+    color: #707070;
+    line-height: 1.8em;
+    position: absolute;
+    z-index: 1;
+}
+.foot{
+    width: 100vw;
+    font-family: 'Passion One', sans-serif;
+    text-align: center;
+    margin: 0 auto;
+    color: black;
+    display: flex;
+    font-size: 15px;
+    margin-top: 0px ;
+    height: 50px;
+background-color: #707070;
+justify-content: space-between;
+align-items: center;
+position: absolute;
+}
+.sifoot
+    {width: 283px;
+        font-family: 'Passion One', sans-serif;
+        text-align: center;
+        margin: 0 auto;
+        color: black;
+        display: flex;
+        font-size: 15px;
+        height: 50px;
+    background-color: #707070;
+    justify-content: space-between;
+    align-items: center;
+    }
+.cbt{
+    outline-color: black;
+    stroke: 1px;
+    width: 100vw;
+    color: azure;
+    font-family: 'Passion One', sans-serif;
+    font-size: 15px;
+    background-color: #707070;
+    padding: 20px 0px;
+    text-align: center;
+    border-top: 1px solid black;
+}
+.menum{margin-top:70px;}
+.buts{margin-top:70px ;}
+

@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    text-decoration: none;
+    list-style-type: none;
+    background-color: black;
+}
+.wrap{
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: top;
+}
+.menu{
+    background-color: black;
+    height: 150px;
+    width: 100%;
+}
+.menu_wrap{
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1500px;
+    height: 150px;
+}
+.bt1 a{
+    display: block;
+    text-align: center;
+    padding: 0px 0px;
+    font-family: 'Passion One', sans-serif;
+    font-size: 75px;
+    font-weight: 700;
+    color: #707070;
+    letter-spacing: -0.9px;
+    line-height: 72px;
+    text-transform: capitalize;
+    transition: all 0.3s;}
+.bt2 a{
+    display: block;
+    text-align: center;
+    padding: 0px 0px;
+    font-family: 'Passion One', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    color: #ebebeb;
+    letter-spacing: -0.9px;
+     line-height: 72px;
+     text-transform: capitalize;
+     transition: all 0.3s;
+}
+.bt3 a{
+    display: block;
+    text-align: center;
+    padding: 0px 0px;
+    font-family: 'Passion One', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    color: #ebebeb;
+    letter-spacing: -0.9px;
+     line-height: 72px;
+     text-transform: capitalize;
+     transition: all 0.3s;
+}
+.bt4 a{
+    display: block;
+    text-align: center;
+    padding: 0px 0px;
+    font-family: 'Passion One', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    color: #ebebeb;
+    letter-spacing: -0.9px;
+     line-height: 72px;
+     text-transform: capitalize;
+     transition: all 0.3s;
+}
+.bt0 a:hover{
+    color: #04ab99;
+    transition: all 0.3s;
+}
+
+
+.foot{
+    margin-bottom:0%;
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100vw;
+    height: 100px;
+    background-color: black;}
+
+.foot_wrap{
+    font-family: 'Passion One', sans-serif;
+        text-align: center;
+        color: white;
+        margin: 0 auto;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 1100px;
+        font-size: 30px;
+    }
+
+.container{
+    margin: auto;
+    width: 100vw;
+    height: 930px;
+    background-color: #707070;
+}
+
+.box1{
+    margin: 0 auto;
+    height: 465px;
+    width: 1100px;
+    color: #707070;
+}
+
+.blackbox{
+    margin: auto;
+    width: 1100px;
+    height: 465px;
+    background-color: #000000;
+    position: relative;
+    display: flex
+}
+
+.button{
+    margin-left: 15px;
+    position: relative;
+    display: flex
+}
+
+
+
+ @media screen and (max-width: 600px) {
+    .menu{
+        display:block;
+    }
+    .bt0 a{
+        text-align: left;
+    }
+    .tit img{
+        width: 90vw;
+    }
+ }
